@@ -1,0 +1,7 @@
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\bin\Debug\13-Egzersiz.exe.config
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\bin\Debug\13-Egzersiz.exe
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\bin\Debug\13-Egzersiz.pdb
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\obj\Debug\13-Egzersiz.csproj.AssemblyReference.cache
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\obj\Debug\13-Egzersiz.csproj.CoreCompileInputs.cache
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\obj\Debug\13-Egzersiz.exe
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\13-Egzersiz\13-Egzersiz\obj\Debug\13-Egzersiz.pdb
