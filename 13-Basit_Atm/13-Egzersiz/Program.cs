@@ -23,21 +23,18 @@ namespace _13_Egzersiz
 
             while (true)
             {
-                Console.WriteLine("1-Para Çekme \n"+"2-Para Yatırma \n"+"3-Bakiye Sorgulama \n"+"4-Fatura Ödeme \n");
+                Console.WriteLine("1-Para Çekme \n" + "2-Para Yatırma \n" + "3-Bakiye Sorgulama \n" + "4-Fatura Ödeme \n");
                 try
                 {
                     secenek = int.Parse(Console.ReadLine());
                 }
-                catch(FormatException ex)
+                catch (FormatException ex)
                 {
                     Console.WriteLine("Lütfen Geçerli Bir Değer Giriniz ***Error : " + ex.Message);
                     continue;
                 }
-
                 switch (secenek)
                 {
-                    
-
                     case 1:
                         while (true)
                         {
@@ -47,74 +44,26 @@ namespace _13_Egzersiz
                             if (cekilenTutar < bakiye)
                             {
                                 bakiye -= cekilenTutar;
-                                Console.WriteLine(cekilenTutar + " TL Çekilmiştir...Yapmak İstediğiniz Başka Bir İşlem Var mı ?(Evet=>1/Hayır=>2)");
+                                Console.WriteLine(cekilenTutar + " TL Çekilmiştir...");
                             }
                             else
                             {
                                 Console.WriteLine("Bakiyeniz Yetersiz!");
                                 continue;
                             }
-
-                            while (true)
-                            {
-                                try
-                                {
-                                    _secenek = int.Parse(Console.ReadLine());
-
-                                }
-                                catch (FormatException ex)
-                                {
-                                    Console.WriteLine("Lütfen Geçerli Bir Değer Giriniz ***Error : " + ex.Message);
-                                    continue;
-                                }
-                                break;
-                            }
-                            
                             break;
                         }
-                        switch (_secenek)
-                        {
-                            case 1: continue;
-                            case 2: break;
-                        }
-
                         break;
-                       
                     case 2:
                         Console.WriteLine("Yatırmak İstediğiniz İstediğiniz Tutarı Giriniz");
                         yatirilanTutar = int.Parse(Console.ReadLine());
                         bakiye += yatirilanTutar;
-                        Console.WriteLine(yatirilanTutar + " TL Yatırılmıştır...Yapmak İstediğiniz Başka Bir İşlem Var mı ?(Evet=>1/Hayır=>2)");
-                        while (true)
-                        {
-                            try
-                            {
-                                _secenek = int.Parse(Console.ReadLine());
-                            }
-                            catch (FormatException ex)
-                            {
-                                Console.WriteLine("Lütfen Geçerli Bir Değer Giriniz * **Error : " + ex.Message);
-                                continue;
-                            }
-                           
-                            break;
-                        }
-                        switch (_secenek)
-                        {
-                            case 1: continue;
-                            case 2: break;
-                        }
+                        Console.WriteLine(yatirilanTutar + " TL Yatırılmıştır...");
+
                         break;
                     case 3:
                         Console.WriteLine("Toplam Bakiyeniz :" + bakiye);
-                        Console.WriteLine("Yapmak İstediğiniz Başka Bir İşlem Var mı ?(Evet=>1/Hayır=>2)");
-                        _secenek = int.Parse(Console.ReadLine());
-
-                        switch (_secenek)
-                        {
-                            case 1: continue;
-                            case 2: break;
-                        }
+                       
                         break;
                     case 4:
                         Console.WriteLine("Hangi Faturayı Ödemek İstediğinizi Seçiniz");
@@ -132,7 +81,7 @@ namespace _13_Egzersiz
                                         {
                                             _secenek = int.Parse(Console.ReadLine());
                                         }
-                                        catch(FormatException ex)
+                                        catch (FormatException ex)
                                         {
                                             Console.WriteLine("Lütfen Geçerli Bir Değer Giriniz ***Error : " + ex.Message);
                                             continue;
@@ -173,7 +122,8 @@ namespace _13_Egzersiz
                                     }
                                     break;
                                 case 3:
-                                    Console.WriteLine("Faturanız 400 TL'dir...Ödemek İstiyorsanız 1'e Ödemek İstemiyorsanız 2'ye basınız.");
+                                    Console.WriteLine("Faturanız 400 TL'dir...");
+                                    Console.WriteLine("Ödemek İstiyorsanız 1'e Ödemek İstemiyorsanız 2'ye basınız.");
                                     while (true)
                                     {
                                         try
@@ -247,27 +197,34 @@ namespace _13_Egzersiz
                             }
                             break;
                         }
-                        Console.WriteLine("Yapmak İstediğiniz Başka Bir İşlem Var mı? (Evet=>1/Hayır=>2)");
+                        break;
+                }
+                Console.WriteLine("Yapmak İstediğiniz Başka Bir İşlem Var mı ? (Evet => 1 / Hayır=> 2)");
+                while (true)
+                {
+                    try
+                    {
                         _secenek = int.Parse(Console.ReadLine());
 
-                        switch (_secenek)
-                        {
-                            case 1: continue;
-                            case 2: break;
-                        }
-                        break;
-                        
-
-
+                    }
+                    catch (FormatException ex)
+                    {
+                        Console.WriteLine("Lütfen Geçerli Bir Değer Giriniz ***Error : " + ex.Message);
+                        continue;
+                    }
+                    break;
+                }
+                switch (_secenek)
+                {
+                    case 1: continue;
+                    case 2: break;
                 }
                 break;
-
             }
             Console.WriteLine("Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz...");
             Console.ReadKey();
-
-            
-
+        }
+        
         }
     }
-}
+
