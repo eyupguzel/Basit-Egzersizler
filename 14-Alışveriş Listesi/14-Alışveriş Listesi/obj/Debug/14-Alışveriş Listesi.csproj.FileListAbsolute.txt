@@ -1,0 +1,7 @@
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\bin\Debug\14-Alışveriş Listesi.exe.config
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\bin\Debug\14-Alışveriş Listesi.exe
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\bin\Debug\14-Alışveriş Listesi.pdb
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\obj\Debug\14-Alışveriş Listesi.csproj.AssemblyReference.cache
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\obj\Debug\14-Alışveriş Listesi.csproj.CoreCompileInputs.cache
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\obj\Debug\14-Alışveriş Listesi.exe
+C:\Users\eyupg\OneDrive\Masaüstü\C#\Gençay Yıldız\A'dan Z'ye Eğitim Serisi\14-Alışveriş Listesi\14-Alışveriş Listesi\obj\Debug\14-Alışveriş Listesi.pdb
